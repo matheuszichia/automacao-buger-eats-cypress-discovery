@@ -2,7 +2,7 @@ class SignupPage {
 
     go() {
         cy.viewport(1440, 900) //define tamanho da janela
-            cy.visit('https://buger-eats-qa.vercel.app') //acessa a página principal alvo do teste
+            cy.visit('/') //acessa a página principal alvo do teste
 
             cy.get('a[href="/deliver"]').click() //encontrar o botão e clicar
             cy.get('#page-deliver form h1').should('have.text', 'Cadastre-se para  fazer entregas') //checkpoint para garantir que estamos no lugar certo

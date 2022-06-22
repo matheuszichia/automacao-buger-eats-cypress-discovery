@@ -1,8 +1,8 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-  projectId: "gjw9sq"
+  projectId: "gjw9sq",
   e2e: {
-    baseUrl: 'http://localhost:1234'
+    baseUrl: 'https://buger-eats-qa.vercel.app'
   }
 })
