@@ -2,3 +2,4 @@ node_modules
 cypress/videos
 cypress/screenshots
 script_git_actions.txt
+temp.txt
