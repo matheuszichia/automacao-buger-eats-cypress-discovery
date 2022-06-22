@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "nome": "Matheus Zichia",
+        "cpf": "33663529301",
+        "email": "zichia@gmail.com",
+        "whatsapp": "11962424489",
+        "endereco": {
+            "cep": "04534011",
+            "rua": "Rua Joaquim Floriano",
+            "numero": "1000",
+            "complemento": "ap 142",
+            "bairro": "Itaim Bibi",
+            "cidade_uf": "São Paulo/SP"
+        },
+        "metodo_entrega": "Van/Carro",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv":{
+        "nome": "João Lucas",
+        "cpf": "336635293AA",
+        "email": "joaolucas@gmail.com",
+        "whatsapp": "11962424477",
+        "endereco": {
+            "cep": "04534011",
+            "rua": "Rua Joaquim Floriano",
+            "numero": "1000",
+            "complemento": "ap 142",
+            "bairro": "Itaim Bibi",
+            "cidade_uf": "São Paulo/SP"
+        },
+        "metodo_entrega": "Van/Carro",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "nome": "Matheus Zichia",
+        "cpf": "33663529301",
+        "email": "zichia.com.br",
+        "whatsapp": "11962424489",
+        "endereco": {
+            "cep": "04534011",
+            "rua": "Rua Joaquim Floriano",
+            "numero": "1000",
+            "complemento": "ap 142",
+            "bairro": "Itaim Bibi",
+            "cidade_uf": "São Paulo/SP"
+        },
+        "metodo_entrega": "Van/Carro",
+        "cnh": "cnh-digital.jpg"
+    }
+}
