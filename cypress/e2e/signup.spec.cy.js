@@ -18,7 +18,7 @@ describe('SignUp', () => {
         signup.fillForm(entregador)
         signup.submit()
 
-        const expectedMessage = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.'
+        const expectedMessage = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em brve retornamos o contato.'
 
         signup.modalContentShouldBe(expectedMessage)
 

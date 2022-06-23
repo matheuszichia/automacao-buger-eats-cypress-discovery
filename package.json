@@ -4,7 +4,7 @@
   "description": "Projeto de Testes de Aceitação do App Buger Eats",
   "main": "index.js",
   "scripts": {
-    "cy:run": "npx cypress run --config-file=cypress.config.js"
+    "cy:run": "cypress open --config-file=cypress.config.js"
   },
   "author": "Matheus Zichia",
   "license": "MIT",
