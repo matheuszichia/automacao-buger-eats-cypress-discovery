@@ -4,7 +4,10 @@
   "description": "Projeto de Testes de Aceitação do App Buger Eats",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "build": "rollup -c",
+    "start": "http-server",
+    "test": "cypress run",
+    "cypress:open": "cypress open"
   },
   "author": "Matheus Zichia",
   "license": "MIT",
@@ -13,5 +16,8 @@
     "cypress-file-upload": "^5.0.8",
     "faker": "^5.5.3",
     "gerador-validador-cpf": "^5.0.2"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }
