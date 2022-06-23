@@ -4,6 +4,7 @@
   "description": "Projeto de Testes de Aceitação do App Buger Eats",
   "main": "index.js",
   "scripts": {
+    "cypress open --config-file=cypress.config.js",
     "test": "npx cypress open"
   },
   "author": "Matheus Zichia",
